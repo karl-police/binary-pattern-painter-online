@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Header from "../Components/Header";
-
 function Main_Page() {
     return (<>
         <div>
