@@ -43,8 +43,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build
+      - name: npm add
         run: npm add .
+
+      - name: Build
         run: npm run build
 
       - name: Deploy with gh-pages
