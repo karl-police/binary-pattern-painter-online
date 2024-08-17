@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 // Had to install this manually into Microsoft/TypeScript
-import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
+import {Route, HashRouter, Routes} from "react-router-dom";
 
 
 // CSS
@@ -15,11 +15,11 @@ import Main_Page from "./pages/Main_Page";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<Main_Page/>} />
     </Routes>
-  </Router>
+  </HashRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
