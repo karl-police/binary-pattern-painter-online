@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/binary-pattern-painter-online/static/css/main.cba029ab.css",
-    "main.js": "/binary-pattern-painter-online/static/js/main.0a8da650.js",
+    "main.js": "/binary-pattern-painter-online/static/js/main.decdd66e.js",
     "index.html": "/binary-pattern-painter-online/index.html",
     "main.cba029ab.css.map": "/binary-pattern-painter-online/static/css/main.cba029ab.css.map",
-    "main.0a8da650.js.map": "/binary-pattern-painter-online/static/js/main.0a8da650.js.map"
+    "main.decdd66e.js.map": "/binary-pattern-painter-online/static/js/main.decdd66e.js.map"
   },
   "entrypoints": [
     "static/css/main.cba029ab.css",
-    "static/js/main.0a8da650.js"
+    "static/js/main.decdd66e.js"
   ]
 }
