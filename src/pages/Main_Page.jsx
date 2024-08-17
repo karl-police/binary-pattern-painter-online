@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 function Main_Page() {
     return (<>
         <div>
+            <div style={{height:"50000px"}}></div>
             <div>
                 <h2 id="about">About</h2>
                 <p>
