@@ -15,7 +15,7 @@ import BinaryPatternEditorPage from "./pages/BinaryPatternEditorPage";
 import Header from "./Components/Header";
 
 // temp silencer
-var process = process;
+//var process = process;
 
 
 //import reportWebVitals from './reportWebVitals';
