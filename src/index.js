@@ -10,18 +10,25 @@ import './css/main.css';
 
 
 import Main_Page from "./pages/Main_Page";
+import BinaryPatternEditorPage from "./pages/BinaryPatternEditorPage";
 
 //import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<>
   <Helmet>
-    <html lang="en"></html>
+    <html lang="en">
+      <title>Binary Pattern Editor Online</title>
+    </html>
   </Helmet>
 
   <HashRouter>
     <Routes>
+      {/* Main page */}
       <Route path="/" element={<Main_Page/>} />
+
+      {/* Rest of the paths */}
+      <Route path="/binary-pattern-editor" element={<BinaryPatternEditorPage/>}></Route>
     </Routes>
   </HashRouter>
 </>);
