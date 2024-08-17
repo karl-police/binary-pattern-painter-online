@@ -31,6 +31,7 @@ root.render(<>
     <Routes>
       {/* Main page */}
       <Route path="/" element={<Main_Page/>} />
+      <Route path="/index" element={<Main_Page/>} />
 
       {/* Rest of the paths */}
       <Route path="/binary-pattern-editor" element={<BinaryPatternEditorPage/>}></Route>
