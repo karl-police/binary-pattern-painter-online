@@ -1,6 +1,7 @@
 :root {
   --bgColor: #303030;
   --fontColor: white;
+  --linkColor: #00d0ff;
 }
 
 
@@ -17,4 +18,8 @@ body {
 
   background-color: var(--bgColor);
   color: var(--fontColor);
+}
+
+a {
+  color: var(--linkColor);
 }
