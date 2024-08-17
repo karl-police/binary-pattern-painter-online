@@ -17,7 +17,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
     <Routes>
-      <Route path="/" element={<Main_Page/>}></Route>
+      <Route path="/" element={<Main_Page/>} />
     </Routes>
   </Router>
 );
