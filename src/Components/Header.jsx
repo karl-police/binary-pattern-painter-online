@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
     return (<>
         <header>
-            <h1 style={{textAlign: "center"}}><Link to="/">Binary Pattern Editor</Link></h1>
+            <h1 style={{textAlign: "center"}}><a href="/">Binary Pattern Editor</a></h1>
         </header>
     </>)
 }
