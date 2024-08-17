@@ -23,3 +23,8 @@ body {
 a {
   color: var(--linkColor);
 }
+
+a.no-link-style {
+  color: inherit;
+  text-decoration: none;
+}
