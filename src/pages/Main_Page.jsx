@@ -14,7 +14,7 @@ function Main_Page() {
             <div>
                 <h2>Links</h2>
                 <ul>
-                    <li><Link to="/binary-pattern-editor">binary-pattern-editor</Link></li>
+                    <li><Link to="/binary-pattern-editor">Binary Pattern Editor</Link></li>
                 </ul>
             </div>
         </div>
