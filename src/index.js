@@ -19,9 +19,9 @@ import Header from "./Components/Header";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<>
   <Helmet
-  htmlAttributes={{
-    lang: "en"
-  }}
+    htmlAttributes={{
+      lang: "en"
+    }}
     title="Binary Pattern Editor Online"
   />
 
