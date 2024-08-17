@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 // Had to install this manually into Microsoft/TypeScript
-import {Route, HashRouter, Routes} from "react-router-dom";
+import {Route, BrowserRouter, HashRouter, Routes} from "react-router-dom";
 import {Helmet} from "react-helmet";
 
 // CSS
@@ -27,16 +27,18 @@ root.render(<>
 
   <Header></Header>
 
-  <HashRouter>
-    <Routes>
-      {/* Main page */}
-      <Route path="/" element={<Main_Page/>} />
-      <Route path="/index" element={<Main_Page/>} />
+  <BrowserRouter>
+    <React.StrictMode>
+      <Routes>
+        {/* Main page */}
+        <Route path="/" element={<Main_Page/>} />
+        <Route path="/index" element={<Main_Page/>} />
 
-      {/* Rest of the paths */}
-      <Route path="/binary-pattern-editor" element={<BinaryPatternEditorPage/>}></Route>
-    </Routes>
-  </HashRouter>
+        {/* Rest of the paths */}
+        <Route path="/binary-pattern-editor" element={<BinaryPatternEditorPage/>}></Route>
+      </Routes>
+    </React.StrictMode>
+  </BrowserRouter>
 </>);
 
 // If you want to start measuring performance in your app, pass a function
