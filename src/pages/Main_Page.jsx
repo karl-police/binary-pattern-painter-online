@@ -2,7 +2,7 @@ import React from "react";
 
 import Header from "../Components/Header";
 
-function MainPage() {
+function Main_Page() {
     return (
         <html>
             <body>
@@ -12,4 +12,4 @@ function MainPage() {
    )
 }
 
-export default MainPage;
+export default Main_Page;

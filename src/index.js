@@ -9,7 +9,7 @@ import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import './css/main.css';
 
 
-import MainPage from "./pages/MainPage";
+import Main_Page from "./pages/Main_Page";
 
 //import reportWebVitals from './reportWebVitals';
 
