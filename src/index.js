@@ -17,10 +17,11 @@ import BinaryPatternEditorPage from "./pages/BinaryPatternEditorPage";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<>
   <Helmet
+  htmlAttributes={{
+    lang: "en"
+  }}
     title="Binary Pattern Editor Online"
-  >
-    <html lang="en"></html>
-  </Helmet>
+  />
 
   <HashRouter>
     <Routes>
