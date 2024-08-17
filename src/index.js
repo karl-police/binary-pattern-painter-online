@@ -12,6 +12,8 @@ import './css/main.css';
 import Main_Page from "./pages/Main_Page";
 import BinaryPatternEditorPage from "./pages/BinaryPatternEditorPage";
 
+import Header from "./Components/Header";
+
 //import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,6 +24,8 @@ root.render(<>
   }}
     title="Binary Pattern Editor Online"
   />
+
+  <Header></Header>
 
   <HashRouter>
     <Routes>
