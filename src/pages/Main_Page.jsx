@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Header from "../Components/Header";
 
@@ -6,7 +7,7 @@ function Main_Page() {
     return (<>
         <div>
             <div>
-                <h2>About</h2>
+                <h2 id="about">About</h2>
                 <p>
                     This Website provides some tools to create data in shape of binary matrices and export them as
                     JSON Array tables and or other.
@@ -15,7 +16,7 @@ function Main_Page() {
             <div>
                 <h2>Links</h2>
                 <ul>
-                    <li><a href="./binary-pattern-editor">binary-pattern-editor</a></li>
+                    <li><Link to="/binary-pattern-editor">binary-pattern-editor</Link></li>
                 </ul>
             </div>
         </div>
