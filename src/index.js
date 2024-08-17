@@ -14,6 +14,8 @@ import BinaryPatternEditorPage from "./pages/BinaryPatternEditorPage";
 
 import Header from "./Components/Header";
 
+
+
 //import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -27,17 +29,15 @@ root.render(<>
 
   <Header></Header>
 
-  <BrowserRouter>
-    <React.StrictMode>
-      <Routes>
-        {/* Main page */}
-        <Route path="/" element={<Main_Page/>} />
-        <Route path="/index" element={<Main_Page/>} />
+  <BrowserRouter basename={`${process.env.PUBLIC_URL}`}>
+    <Routes>
+      {/* Main page */}
+      <Route path="/" element={<Main_Page/>} />
+      <Route path="/index" element={<Main_Page/>} />
 
-        {/* Rest of the paths */}
-        <Route path="/binary-pattern-editor" element={<BinaryPatternEditorPage/>}></Route>
-      </Routes>
-    </React.StrictMode>
+      {/* Rest of the paths */}
+      <Route path="/binary-pattern-editor" element={<BinaryPatternEditorPage/>}></Route>
+    </Routes>
   </BrowserRouter>
 </>);
 
