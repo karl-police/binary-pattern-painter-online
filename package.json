@@ -1,5 +1,6 @@
 {
   "version": "0.1.0",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "latest",
     "@testing-library/react": "latest",
