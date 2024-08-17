@@ -4,7 +4,7 @@ import React from "react";
 function Header() {
     return (<>
         <header>
-            <h1>Test</h1>
+            <h1 align="center">Test</h1>
         </header>
     </>)
 }
