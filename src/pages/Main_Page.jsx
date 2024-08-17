@@ -9,7 +9,8 @@ function Main_Page() {
                 <p>
                     This Website provides some tools to create data in shape of binary matrices and export them as
                     JSON Array tables and or other.
-
+                </p>
+                <p>
                     It probably was a mistake to create this in React for gh-pages. I can only use HashRouting
                     which destroys anchor links.
                 </p>
