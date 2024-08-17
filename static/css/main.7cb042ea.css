@@ -1,0 +1,2 @@
+:root{--bgColor:#303030;--fontColor:#fff;--linkColor:#00d0ff}[data-theme=dark]{--bgColor:#303030}body{background-color:#303030;background-color:var(--bgColor);color:#fff;color:var(--fontColor);font-family:Arial,Helvetica,sans-serif;margin:0;padding:0}a{color:#00d0ff;color:var(--linkColor)}
+/*# sourceMappingURL=main.7cb042ea.css.map*/
