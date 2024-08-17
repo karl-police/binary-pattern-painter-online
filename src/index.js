@@ -1,18 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+// Had to install this manually into Microsoft/TypeScript
+import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
+
+
+// CSS
 import './css/main.css';
-import Header from "./Components/Header";
+
+
+import Main_Page from "./pages/Main_Page";
+
 //import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <html>
-
-  <body>
-    <Header/>
-  </body>
-  
-  </html>
+  <Router>
+    <Routes>
+      <Route path="/" element={<Main_Page/>}></Route>
+    </Routes>
+  </Router>
 );
 
 // If you want to start measuring performance in your app, pass a function
