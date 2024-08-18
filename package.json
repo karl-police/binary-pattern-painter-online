@@ -39,6 +39,8 @@
   },
   "devDependencies": {
     "gh-pages": "latest",
-    "surge": "latest"
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
   }
 }
