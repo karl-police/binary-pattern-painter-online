@@ -1,5 +1,5 @@
-import path from "path"
-import HWP from "html-webpack-plugin"
+var path = require("path")
+var HWP = require("html-webpack-plugin")
 
 module.exports = {
     entry: path.join(__dirname, '/src/index.js'),
