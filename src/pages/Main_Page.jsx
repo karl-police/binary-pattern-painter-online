@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 import PageContainerMain from "../Components/PageContainerMain";
 
@@ -16,11 +16,11 @@ function Main_Page() {
             <div>
                 <h2>Links</h2>
                 <ul>
-                    <li><Link to="/binary-pattern-editor">Binary Pattern Editor</Link></li>
+                    
                 </ul>
             </div>
         </PageContainerMain>
    </>)
 }
-
+//<li><Link to="/binary-pattern-editor">Binary Pattern Editor</Link></li>
 export default Main_Page;
