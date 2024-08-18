@@ -50,7 +50,8 @@ jobs:
         run: npm add .
 
       - name: Build
-        run: npm run build
+        run: webpack --mode production
+        #run: npm run build
 
       - name: Deploy with gh-pages
         run: |
