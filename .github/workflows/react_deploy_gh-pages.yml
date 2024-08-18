@@ -46,8 +46,10 @@ jobs:
       #- name: Build
       #  run: npm run build
 
-      - name: React Static
-        run: npm i -g react-static && react-static build
+      - name: React Snap
+        run: |
+          npm install react-snap
+          react-static build
 
       #- name: Next
       #  run: npx next build --experimental-build-mode compile
