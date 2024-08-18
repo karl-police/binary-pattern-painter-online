@@ -31,9 +31,9 @@ jobs:
           path: ~/.npm
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
+            ${{ runner.os }}-build-${{ env.cache-name }}
+            ${{ runner.os }}-build
+            ${{ runner.os }}
 
       - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
         name: List the state of node modules
@@ -51,7 +51,10 @@ jobs:
 
       # To fix "_" issues
       - name: Create .nojekyll file
-        run: touch build/.nojekyll
+        run: |
+        pwd
+        ls
+        touch build/.nojekyll
 
       - name: Deploy with gh-pages
         run: |
