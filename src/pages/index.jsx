@@ -1,4 +1,5 @@
 import React from "react";
+import PAGE_CONFIG from "../js/modules/page_config";
 
 import PageContainerMain from "../Components/PageContainerMain";
 
@@ -13,9 +14,9 @@ function Main_Page() {
                 </p>
             </div>
             <div>
-                <h2>Links</h2>
+                <h2 id="links">Links</h2>
                 <ul>
-                    <li><a href="/binary-pattern-editor">Binary Pattern Editor</a></li>
+                    <li><a href={`${PAGE_CONFIG.home_url}/binary-pattern-editor`}>Binary Pattern Editor</a></li>
                 </ul>
             </div>
         </PageContainerMain>
