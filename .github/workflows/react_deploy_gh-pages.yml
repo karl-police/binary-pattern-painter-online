@@ -49,8 +49,8 @@ jobs:
       - name: npm add
         run: npm add .
 
-      - name: Build and export
-        run: npm run build && npm run export
+      #- name: Build
+      #  run: npm run build
 
       - name: Next
         run: next build
