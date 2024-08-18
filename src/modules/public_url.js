@@ -3,7 +3,7 @@ const PUBLIC_URL = {
     /**
      * @type string
      */
-    url: null,
+    url: "https://karl-police.github.io/binary-pattern-painter-online/",
 }
 
 
