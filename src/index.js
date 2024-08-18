@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import PUBLIC_URL from "./modules/public_url";
-PUBLIC_URL.url = process.env.PUBLIC_URL;
 
 // Had to install this manually into Microsoft/TypeScript
 import {Route, BrowserRouter, HashRouter, Routes} from "react-router-dom";
@@ -16,9 +15,6 @@ import Main_Page from "./pages/Main_Page";
 import BinaryPatternEditorPage from "./pages/BinaryPatternEditorPage";
 
 import Header from "./Components/Header";
-
-// temp silencer
-var process = process;
 
 
 //import reportWebVitals from './reportWebVitals';
@@ -34,7 +30,7 @@ root.render(<>
 
   <Header></Header>
 
-  <BrowserRouter basename={`${process.env.PUBLIC_URL}`}>
+  <BrowserRouter basename={`${PUBLIC_URL.url}`}>
     <Routes>
       {/* Main page, for gh-pages "/" needed to go away */}
       <Route path="*" element={<Main_Page/>} />
