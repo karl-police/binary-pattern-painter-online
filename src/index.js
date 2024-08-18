@@ -32,7 +32,7 @@ root.render(<>
 
   <Header></Header>
 
-  <BrowserRouter basename={`${process.env.PUBLIC_URL}`}>
+  <BrowserRouter basename={`${"/binary-pattern-painter-online"}`}>
     <Routes>
       {/* Main page, for gh-pages "/" needed to go away */}
       <Route path="/" element={<Main_Page/>} />
