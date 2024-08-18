@@ -6,9 +6,10 @@ var DIR_React_Project_src = "src"
 
 module.exports = {
     entry: path.join(__dirname, `./${DIR_React_Project_src}/index.js`),
+    
     output: {
-        filename: "build.js",
-        path: path.join(__dirname, "/dist")
+        path: path.join(__dirname, "/dist"),
+        filename: "bundle.js",
     },
 
     resolve: {
