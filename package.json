@@ -41,6 +41,7 @@
     "gh-pages": "latest",
     "babel-core": "latest",
     "babel-loader": "latest",
+    "babel-preset-node": "latest",
     "babel-preset-env": "latest",
     "babel-preset-react": "latest",
     "webpack": "latest",
