@@ -1,7 +1,8 @@
 
 const nextConfig = {
     // enables static exports
-    output: "export"
+    output: "export",
+    assetPrefix: "./"
 };
 
 module.exports = nextConfig;
