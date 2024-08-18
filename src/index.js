@@ -1,5 +1,4 @@
 import React from "react";
-import {render, hydrate} from "react-dom";
 import ReactDOM from "react-dom/client";
 
 
@@ -23,61 +22,29 @@ import Header from "./Components/Header";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const rootElement = document.getElementById('root');
+root.render(<>
+  <Helmet
+    htmlAttributes={{
+      lang: "en"
+    }}
+    title="Binary Pattern Editor Online"
+  />
 
-if (rootElement.hasChildNodes()) {
-  console.log('App: Hydrate');
-  hydrate(<>
-    <Helmet
-      htmlAttributes={{
-        lang: "en"
-      }}
-      title="Binary Pattern Editor Online"
-    />
-  
-    <Header></Header>
-  
-    {/* process.env.PUBLIC_URL seems to be /binary-pattern-painter-online */}
-    <BrowserRouter basename={`${"/binary-pattern-painter-online"}`}>
-      <Routes>
-        {/* Main page, for gh-pages "/" needed to go away */}
-        <Route path="/" element={<Main_Page/>} />
-        <Route path="/index" element={<Main_Page/>} />
-        <Route path="/main" element={<Main_Page/>} />
-  
-        {/* Rest of the paths */}
-        <Route path="/binary-pattern-editor" element={<BinaryPatternEditorPage/>}></Route>
-      </Routes>
-    </BrowserRouter>
-  </>), rootElement;
-} else {
-  console.log('App: Render');
-  render(<>
-    <Helmet
-      htmlAttributes={{
-        lang: "en"
-      }}
-      title="Binary Pattern Editor Online"
-    />
-  
-    <Header></Header>
-  
-    {/* process.env.PUBLIC_URL seems to be /binary-pattern-painter-online */}
-    <BrowserRouter basename={`${"/binary-pattern-painter-online"}`}>
-      <Routes>
-        {/* Main page, for gh-pages "/" needed to go away */}
-        <Route path="/" element={<Main_Page/>} />
-        <Route path="/index" element={<Main_Page/>} />
-        <Route path="/main" element={<Main_Page/>} />
-  
-        {/* Rest of the paths */}
-        <Route path="/binary-pattern-editor" element={<BinaryPatternEditorPage/>}></Route>
-      </Routes>
-    </BrowserRouter>
-  </>, rootElement);
-}
+  <Header></Header>
 
+  {/* process.env.PUBLIC_URL seems to be /binary-pattern-painter-online */}
+  <BrowserRouter basename={`${"/binary-pattern-painter-online"}`}>
+    <Routes>
+      {/* Main page, for gh-pages "/" needed to go away */}
+      <Route path="/" element={<Main_Page/>} />
+      <Route path="/index" element={<Main_Page/>} />
+      <Route path="/main" element={<Main_Page/>} />
 
+      {/* Rest of the paths */}
+      <Route path="/binary-pattern-editor" element={<BinaryPatternEditorPage/>}></Route>
+    </Routes>
+  </BrowserRouter>
+</>);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
