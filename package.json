@@ -13,7 +13,6 @@
     "web-vitals": "latest"
   },
   "scripts": {
-    "predeploy": "npm run build && surge ./build/",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && cp build/index.html build/404.html",
