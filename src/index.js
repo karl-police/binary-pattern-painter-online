@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 
 
 // Had to install this manually into Microsoft/TypeScript
-import {Route, BrowserRouter, HashRouter, Routes} from "react-router-dom";
+import {Route, BrowserRouter, Routes} from "react-router-dom";
 import {Helmet} from "react-helmet";
 
 // CSS
