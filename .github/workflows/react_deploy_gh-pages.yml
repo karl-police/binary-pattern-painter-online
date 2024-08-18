@@ -53,7 +53,7 @@ jobs:
         run: npm run build
 
       - name: Next
-        run: npx next build --experimental-build-mode compil
+        run: npx next build --experimental-build-mode compile
 
       - name: Deploy with gh-pages
         run: |
