@@ -47,9 +47,12 @@ jobs:
         run: npm add .
 
       - name: Run echo
+        env:
+          test: "hello"
+          urlurl: ${{secrets.PUBLIC_URL}}
         run: |
-          echo Test
-          echo ${{secrets.PUBLIC_URL}}
+          echo $test
+          echo $urlurl
 
       - name: Build
         run: npm run build
