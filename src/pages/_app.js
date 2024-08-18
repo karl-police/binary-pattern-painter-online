@@ -10,7 +10,7 @@ import Header from "../Components/Header";
 
 //const root = ReactDOM.createRoot(document.getElementById('root'));
 
-function App({children}) {
+function AppRoot({children}) {
   return(<>
     <Helmet
       htmlAttributes={{
@@ -26,4 +26,4 @@ function App({children}) {
 }
 
 
-export default App;
+export default AppRoot;
