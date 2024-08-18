@@ -12,6 +12,7 @@ const nextConfig = {
      * @see https://nextjs.org/docs/app/api-reference/next-config-js/basePath
      */
     basePath: "/binary-pattern-painter-online",
+    assetPrefix: "/binary-pattern-painter-online",
 
     /**
      * Disable server-based image optimization. Next.js does not support
