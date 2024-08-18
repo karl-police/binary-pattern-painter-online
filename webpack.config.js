@@ -18,14 +18,15 @@ module.exports = {
         },
     },
 
-    module:{
-        rules:[{
+    module: {
+        rules: [{
             test: /\.(js|jsx)$/,
             exclude: /node_modules/,
             loader: "babel-loader"
         }]
     },
-    plugins:[
+
+    plugins: [
         new HtmlWebPackPlugin({
             template: path.join(__dirname, `./${DIR_React_Project_src}/index.html`)
         })
