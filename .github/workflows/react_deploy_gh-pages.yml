@@ -44,6 +44,7 @@ jobs:
         run: npm install
 
       - name: Run echo
+        run: echo Test
         run: echo $PUBLIC_URL
 
       - name: npm add
