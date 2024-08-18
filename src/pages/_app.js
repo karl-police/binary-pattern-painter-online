@@ -10,7 +10,7 @@ import Header from "../Components/Header";
 
 //const root = ReactDOM.createRoot(document.getElementById('root'));
 
-function App() {
+function App({children}) {
   return(<>
     <Helmet
       htmlAttributes={{
@@ -20,6 +20,8 @@ function App() {
     />
 
     <Header></Header>
+
+    {children}
   </>)
 }
 
