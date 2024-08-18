@@ -1,7 +1,7 @@
 
 const nextConfig = {
     // enables static exports
-    //output: "export",
+    output: "export",
 
     /**
      * Set base path. This is the slug of your GitHub repository.
