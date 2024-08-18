@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 function BinaryPatternEditorPage() {
     return (<>
         <Helmet>
-            <script src="./js/test.js"></script>
+            <script src="../js/test.js"></script>
         </Helmet>
         
         <div>
