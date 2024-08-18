@@ -11,6 +11,7 @@
     "react-helmet": "latest",
     "react-scripts": "latest",
     "next": "latest",
+    "react-static": "latest",
     "web-vitals": "latest"
   },
   "scripts": {
