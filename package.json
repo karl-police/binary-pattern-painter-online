@@ -11,7 +11,6 @@
     "react-helmet": "latest",
     "react-scripts": "latest",
     "next": "latest",
-    "babel-plugin-universal-import": "latest",
     "web-vitals": "latest"
   },
   "scripts": {
