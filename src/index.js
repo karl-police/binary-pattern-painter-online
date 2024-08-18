@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 
 
 // Had to install this manually into Microsoft/TypeScript
-import {Route, BrowserRouter, Routes} from "react-router-dom";
+
 import {Helmet} from "react-helmet";
 
 // CSS
@@ -32,7 +32,7 @@ root.render(<>
   <Header></Header>
 
   {/* process.env.PUBLIC_URL seems to be /binary-pattern-painter-online */}
-  
+
 </>);
 
 // If you want to start measuring performance in your app, pass a function
