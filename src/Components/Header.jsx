@@ -1,5 +1,5 @@
 import React from "react";
-import PAGE_CONFIG from "../modules/page_config.js";
+import PAGE_CONFIG from "../js/modules/page_config.js";
 
 function Header() {
     return (<>
