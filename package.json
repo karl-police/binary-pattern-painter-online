@@ -10,11 +10,12 @@
     "react-router-dom": "latest",
     "react-helmet": "latest",
     "react-scripts": "latest",
+    "next": "latest",
     "web-vitals": "latest"
   },
   "scripts": {
-    "deploy": "gh-pages -d dist",
-    "deploy-old": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
+    "deploy-dist": "gh-pages -d dist",
     "start": "react-scripts start",
     "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
