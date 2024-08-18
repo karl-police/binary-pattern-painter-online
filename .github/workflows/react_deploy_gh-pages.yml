@@ -54,7 +54,7 @@ jobs:
         run: |
           pwd
           ls
-          touch build/.nojekyll
+          touch /build/.nojekyll
 
       - name: Deploy with gh-pages
         run: |
