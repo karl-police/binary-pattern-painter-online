@@ -5,9 +5,9 @@ name: nodejs Next.js React App gh-pages
 
 on:
   push:
-    branches: ["main-nextjs"]
+    branches: ["main-nextjs-react"]
   pull_request:
-    branches: ["main-nextjs"]
+    branches: ["main-nextjs-react"]
 
 jobs:
   build:
