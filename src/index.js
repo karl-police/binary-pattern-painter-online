@@ -33,7 +33,7 @@ root.render(<>
   <BrowserRouter basename={`${PUBLIC_URL.url}`}>
     <Routes>
       {/* Main page, for gh-pages "/" needed to go away */}
-      <Route path="*" element={<Main_Page/>} />
+      <Route path="" element={<Main_Page/>} />
       <Route path="/index" element={<Main_Page/>} />
 
       {/* Rest of the paths */}
