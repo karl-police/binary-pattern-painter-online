@@ -3,6 +3,11 @@ const nextConfig = {
     // enables static exports
     output: "export",
     
+    /*i18n: {
+        locales: ["en"],
+        defaultLocale: "en"
+    },*/
+    
     /**
      * Set base path. This is the slug of your GitHub repository.
      *
