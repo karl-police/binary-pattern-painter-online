@@ -12,7 +12,7 @@ import Header from "../Components/Header";
 
 //const root = ReactDOM.createRoot(document.getElementById('root'));
 
-function AppRoot({children}) {
+function AppRoot({Component, pageProps}) {
   return(<>
     <Helmet
       htmlAttributes={{
@@ -23,7 +23,7 @@ function AppRoot({children}) {
 
     <Header></Header>
 
-    {children}
+    <Component {...pageProps} />
   </>)
 }
 
