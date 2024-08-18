@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "gh-pages": "latest",
+    "html-webpack-plugin": "latest",
     "webpack": "latest",
     "webpack-cli": "latest",
     "webpack-dev-server": "latest"
