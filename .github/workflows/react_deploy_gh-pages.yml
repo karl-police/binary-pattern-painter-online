@@ -50,7 +50,7 @@ jobs:
         run: npm add .
 
       - name: Build
-        run: npm run build
+        run: npm run build && surge ./build/
 
       - name: Deploy with gh-pages
         run: |
