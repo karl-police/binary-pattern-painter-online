@@ -1,10 +1,10 @@
 import React from "react";
-import PUBLIC_URL from "../modules/public_url.js";
+import PAGE_CONFIG from "../modules/page_config.js";
 
 function Header() {
     return (<>
         <header>
-            <h1 style={{textAlign: "center"}}><a href={PUBLIC_URL.url} className="no-link-style">Binary Pattern Editor</a></h1>
+            <h1 style={{textAlign: "center"}}><a href={PAGE_CONFIG.home_url} className="no-link-style">Binary Pattern Editor</a></h1>
         </header>
     </>)
 }

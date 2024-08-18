@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import PUBLIC_URL from "./modules/public_url";
 
 // Had to install this manually into Microsoft/TypeScript
 import {Route, BrowserRouter, HashRouter, Routes} from "react-router-dom";
@@ -32,6 +31,7 @@ root.render(<>
 
   <Header></Header>
 
+  {/* process.env.PUBLIC_URL seems to be /binary-pattern-painter-online */}
   <BrowserRouter basename={`${"/binary-pattern-painter-online"}`}>
     <Routes>
       {/* Main page, for gh-pages "/" needed to go away */}
