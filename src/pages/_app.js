@@ -1,7 +1,6 @@
 // This has a bit of a different setup, compared to actual React
 
 import React from "react";
-//import ReactDOM from "react-dom/client";
 
 import {Helmet} from "react-helmet";
 
@@ -9,8 +8,6 @@ import {Helmet} from "react-helmet";
 import '../css/main.css';
 
 import Header from "../Components/Header";
-
-//const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function AppRoot({Component, pageProps}) {
   return(<>
