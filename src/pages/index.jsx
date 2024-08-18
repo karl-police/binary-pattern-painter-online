@@ -1,10 +1,16 @@
 import React from "react";
 import PAGE_CONFIG from "../js/modules/page_config";
 
+import Head from "next/head";
+
 import PageContainerMain from "../Components/PageContainerMain";
 
 function Main_Page() {
     return (<>
+        <Head>
+            <title>Binary Pattern Editor - Index</title>
+        </Head>
+
         <PageContainerMain>
             <div>
                 <h2 id="about">About</h2>
