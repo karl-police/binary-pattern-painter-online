@@ -1,3 +1,5 @@
+// This has a bit of a different setup, compared to actual React
+
 import React from "react";
 //import ReactDOM from "react-dom/client";
 
