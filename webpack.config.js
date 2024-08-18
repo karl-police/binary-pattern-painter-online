@@ -5,7 +5,7 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 var DIR_React_Project_src = "src"
 
 module.exports = {
-    entry: path.join(__dirname, `./${DIR_React_Project_src}/index.js`),
+    entry: path.join(__dirname, `/${DIR_React_Project_src}/index.js`),
 
     output: {
         path: path.join(__dirname, "/dist"),
@@ -47,7 +47,7 @@ module.exports = {
 
     plugins: [
         new HtmlWebPackPlugin({
-            template: path.join(__dirname, `./${DIR_React_Project_src}/index.html`)
+            template: path.join(__dirname, `/${DIR_React_Project_src}/index.html`)
         })
     ]
 }
