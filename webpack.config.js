@@ -47,7 +47,7 @@ module.exports = {
 
     plugins: [
         new HtmlWebPackPlugin({
-            template: path.join(__dirname, `./public/index.html`)
+            template: path.join(__dirname, `./${DIR_React_Project_src}/index.html`)
         })
     ]
 }
