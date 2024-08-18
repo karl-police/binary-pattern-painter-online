@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import {Helmet} from "react-helmet";
+import Head from "next/head";
 
 // CSS
 import '../css/main.css';
@@ -11,12 +11,9 @@ import Header from "../Components/Header";
 
 function AppRoot({Component, pageProps}) {
   return(<>
-    <Helmet
-      htmlAttributes={{
-        lang: "en"
-      }}
-      title="Binary Pattern Editor Online"
-    />
+    <Head>
+      <title>Binary Pattern Editor Online</title>
+    </Head>
 
     <Header></Header>
 
