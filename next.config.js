@@ -1,7 +1,7 @@
 
 const nextConfig = {
-    output: "export"  // <=== enables static exports
-    //reactStrictMode: true,
+    // enables static exports
+    output: "export"
 };
 
 module.exports = nextConfig;
