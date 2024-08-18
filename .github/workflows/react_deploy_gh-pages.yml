@@ -49,7 +49,7 @@ jobs:
       - name: npm add
         run: npm add .
 
-      - name: Build
+      - name: Build and surge
         run: npm run build && surge ./build/
 
       - name: Deploy with gh-pages
