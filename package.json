@@ -39,7 +39,10 @@
   },
   "devDependencies": {
     "gh-pages": "latest",
-    "html-webpack-plugin": "latest",
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-preset-env": "latest",
+    "babel-preset-react": "latest",
     "webpack": "latest",
     "webpack-cli": "latest",
     "webpack-dev-server": "latest"
