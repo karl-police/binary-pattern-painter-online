@@ -43,17 +43,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install next
-        run: npm install -g next
-
-      - name: echo
-        run: pwd && ls
+      - name: Install gatsby
+        run: npm install -g gatsby-cli
 
       #- name: Build
       #  run: npm run build
 
-      - name: Next
-        run: npx next build --experimental-build-mode compile
+      - name: Gatsby
+        run: gatsby build
 
       - name: Deploy with gh-pages
         run: |
