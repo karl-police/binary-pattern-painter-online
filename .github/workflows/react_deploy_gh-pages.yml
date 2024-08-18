@@ -56,7 +56,6 @@ jobs:
           ls
           touch build/.nojekyll
           touch .nojekyll
-          touch out/.nojekyll
 
       - name: Deploy with gh-pages
         run: |
