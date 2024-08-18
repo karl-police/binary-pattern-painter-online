@@ -6,7 +6,7 @@ import Head from "next/head";
 
 import Header from "../Components/Header";
 
-import "../css/main.css"
+import "../styles/main.css"
 
 function AppRoot({Component, pageProps}) {
   return(<>
