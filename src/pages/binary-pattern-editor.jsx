@@ -1,7 +1,6 @@
 import React from "react";
-import Head from "next/head";
 
-import test from "../js/test";
+import "../js/binaryPatternEditor_main"
 
 function BinaryPatternEditorPage() {
     return (<>

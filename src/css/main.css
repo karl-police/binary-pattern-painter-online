@@ -4,7 +4,6 @@
   --linkColor: #00d0ff;
 }
 
-
 [data-theme="dark"] {
   --bgColor: #303030;
 }
@@ -20,10 +19,11 @@ body {
   color: var(--fontColor);
 }
 
+
+/* Links */
 a {
   color: var(--linkColor);
 }
-
 a.no-link-style {
   color: inherit;
   text-decoration: none;
