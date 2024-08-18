@@ -18,7 +18,7 @@ module.exports = {
             react: path.join(__dirname, 'node_modules', 'react'),
         },
         extensions: [
-            '.ts', '.tsx', '.js', '.jsx', '.json', '.html', '.css', '.cjs', '.mjs'
+            '.ts', '.tsx', '.js', '.jsx', '.json', '.cjs', '.mjs'
         ],
     },
 
