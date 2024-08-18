@@ -46,8 +46,12 @@ jobs:
       #- name: Build
       #  run: npm run build
 
-      - name: Next
+      - name: Next Build
         run: npx next build
+
+      # To fix "_" issues
+      - name: Create .nojekyll file
+        run: touch build/.nojekyll
 
       - name: Deploy with gh-pages
         run: |
