@@ -11,13 +11,15 @@ import Header from "../Components/Header";
 
 function AppRoot({Component, pageProps}) {
   return(<>
-    <Head>
-      <title>Binary Pattern Editor Online</title>
-    </Head>
+    <html lang="en">
+      <Head>
+        <title>Binary Pattern Editor Online</title>
+      </Head>
 
-    <Header></Header>
+      <Header></Header>
 
-    <Component {...pageProps} />
+      <Component {...pageProps} />
+    </html>
   </>)
 }
 
