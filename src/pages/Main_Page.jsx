@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import PageContainerMain from "../Components/PageContainerMain";
+
 function Main_Page() {
     return (<>
-        <div>
+        <PageContainerMain>
             <div>
                 <h2 id="about">About</h2>
                 <p>
@@ -17,7 +19,7 @@ function Main_Page() {
                     <li><Link to="/binary-pattern-editor">Binary Pattern Editor</Link></li>
                 </ul>
             </div>
-        </div>
+        </PageContainerMain>
    </>)
 }
 
