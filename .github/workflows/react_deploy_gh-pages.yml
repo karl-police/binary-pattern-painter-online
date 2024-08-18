@@ -43,16 +43,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: npm add
-        run: npm add .
-
-      - name: Run echo
-        env:
-          test: "hello"
-          urlurl: ${{secrets.PUBLIC_URL}}
-        run: |
-          echo $test
-          echo $urlurl
+      #- name: npm add
+      #  run: npm add .
 
       - name: Build
         run: npm run build
