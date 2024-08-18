@@ -37,6 +37,7 @@ root.render(<>
       {/* Main page, for gh-pages "/" needed to go away */}
       <Route path="/" element={<Main_Page/>} />
       <Route path="/index" element={<Main_Page/>} />
+      <Route path="/main" element={<Main_Page/>} />
 
       {/* Rest of the paths */}
       <Route path="/binary-pattern-editor" element={<BinaryPatternEditorPage/>}></Route>
