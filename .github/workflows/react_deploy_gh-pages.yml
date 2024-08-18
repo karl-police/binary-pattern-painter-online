@@ -43,6 +43,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Run echo
+        run: echo $PUBLIC_URL
+
       - name: npm add
         run: npm add .
 
