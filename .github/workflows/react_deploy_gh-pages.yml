@@ -46,8 +46,8 @@ jobs:
       - name: Install next
         run: npm install -g next
 
-      - name: npm add
-        run: npm add .
+      - name: echo
+        run: pwd
 
       #- name: Build
       #  run: npm run build
