@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+import PUBLIC_URL from "./modules/public_url";
+PUBLIC_URL.url = process.env.PUBLIC_URL;
+
 // Had to install this manually into Microsoft/TypeScript
 import {Route, BrowserRouter, HashRouter, Routes} from "react-router-dom";
 import {Helmet} from "react-helmet";
