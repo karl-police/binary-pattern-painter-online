@@ -11,7 +11,7 @@ import './css/main.css';
 
 
 import Main_Page from "./pages/index";
-import BinaryPatternEditorPage from "./pages/BinaryPatternEditorPage";
+import BinaryPatternEditorPage from "./pages/binary-pattern-editor";
 
 import Header from "./Components/Header";
 
