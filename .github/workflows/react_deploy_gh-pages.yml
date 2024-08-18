@@ -55,6 +55,7 @@ jobs:
           pwd
           ls
           touch build/.nojekyll
+          touch build/whatisthis.help
           touch .nojekyll
 
       - name: Deploy with gh-pages
