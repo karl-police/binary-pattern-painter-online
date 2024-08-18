@@ -2,15 +2,19 @@
 
 import React from "react";
 
+import Head from "next/head";
+
 import Header from "../Components/Header";
+
+//import "../css/main.css"
 
 function AppRoot({Component, pageProps}) {
   return(<>
     <html lang="en">
-      <head>
+      <Head>
         <link rel="stlyesheet" href="../css/main.css"></link>
         <title>Binary Pattern Editor</title>
-      </head>
+      </Head>
 
       <Header></Header>
 
