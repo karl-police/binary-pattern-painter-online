@@ -23,9 +23,9 @@ const nextConfig = {
      *
      * @see https://nextjs.org/docs/app/api-reference/components/image#unoptimized
      */
-    images: {
+    /*images: {
         unoptimized: true,
-    },
+    },*/
 };
 
 module.exports = nextConfig;
