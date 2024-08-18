@@ -46,8 +46,8 @@ jobs:
       - name: Install webpack
         run: npm install -g webpack
 
-      #- name: npm add
-      #  run: npm add .
+      - name: npm add
+        run: npm add .
 
       - name: Build and webpack
         run: webpack --mode production
