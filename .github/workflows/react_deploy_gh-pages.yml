@@ -49,7 +49,7 @@ jobs:
       - name: Run echo
         run: |
           echo Test
-          echo $PUBLIC_URL
+          echo ${{secrets.PUBLIC_URL}}
 
       - name: Build
         run: npm run build
