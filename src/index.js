@@ -32,7 +32,7 @@ root.render(<>
 
   <Header></Header>
 
-  <BrowserRouter basename={`${PUBLIC_URL.url}`}>
+  <BrowserRouter basename={`${process.env.PUBLIC_URL}`}>
     <Routes>
       {/* Main page, for gh-pages "/" needed to go away */}
       <Route path="" element={<Main_Page/>} />
