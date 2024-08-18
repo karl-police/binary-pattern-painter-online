@@ -3,6 +3,8 @@ const nextConfig = {
     // enables static exports
     output: "export",
     
+    reactStrictMode: true,
+
     /*i18n: {
         locales: ["en"],
         defaultLocale: "en"
