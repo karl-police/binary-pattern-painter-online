@@ -43,13 +43,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: npm add
+        run: npm add .
+
       - name: Run echo
         run: |
           echo Test
           echo $PUBLIC_URL
-
-      - name: npm add
-        run: npm add .
 
       - name: Build
         run: npm run build
