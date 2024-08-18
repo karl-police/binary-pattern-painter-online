@@ -53,7 +53,7 @@ jobs:
         run: npm run dev
 
       - name: Build
-        run: npm run build && npm run export
+        run: npm run build
 
       #- name: Next
       #  run: next build
