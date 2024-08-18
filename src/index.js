@@ -49,7 +49,7 @@ if (rootElement.hasChildNodes()) {
         <Route path="/binary-pattern-editor" element={<BinaryPatternEditorPage/>}></Route>
       </Routes>
     </BrowserRouter>
-  </>);
+  </>), rootElement;
 } else {
   console.log('App: Render');
   render(<>
@@ -74,7 +74,7 @@ if (rootElement.hasChildNodes()) {
         <Route path="/binary-pattern-editor" element={<BinaryPatternEditorPage/>}></Route>
       </Routes>
     </BrowserRouter>
-  </>);
+  </>, rootElement);
 }
 
 
