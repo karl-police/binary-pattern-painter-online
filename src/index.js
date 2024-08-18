@@ -19,6 +19,8 @@ import Header from "./Components/Header";
 
 //import reportWebVitals from './reportWebVitals';
 
+// https://github.com/orgs/community/discussions/36010#discussioncomment-4205316
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<>
   <Helmet
