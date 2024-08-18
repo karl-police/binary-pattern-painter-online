@@ -50,10 +50,10 @@ jobs:
         run: npm add .
 
       - name: Build
-        run: npm run build
+        run: npm run build && npm run export
 
-      - name: Next
-        run: next build
+      #- name: Next
+      #  run: next build
 
       - name: Deploy with gh-pages
         run: |
