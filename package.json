@@ -10,7 +10,7 @@
     "react-router-dom": "latest",
     "react-helmet": "latest",
     "react-scripts": "latest",
-    "next": "12.1.6",
+    "next": "~13.3.4",
     "web-vitals": "latest"
   },
   "scripts": {
