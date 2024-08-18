@@ -1,6 +1,7 @@
 {
   "version": "0.1.0",
   "homepage": "https://karl-police.github.io/binary-pattern-painter-online",
+  "proxy": "https://localhost:8000",
   "dependencies": {
     "@testing-library/jest-dom": "latest",
     "@testing-library/react": "latest",
@@ -12,7 +13,6 @@
     "web-vitals": "latest"
   },
   "scripts": {
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && cp build/index.html build/404.html",
