@@ -1,9 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-
-// Had to install this manually into Microsoft/TypeScript
-import {Route, BrowserRouter, Routes} from "react-router-dom";
 import {Helmet} from "react-helmet";
 
 // CSS
@@ -12,10 +9,7 @@ import '../css/main.css';
 
 import Header from "../Components/Header";
 
-
 //import reportWebVitals from './reportWebVitals';
-
-// https://github.com/orgs/community/discussions/36010#discussioncomment-4205316
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
