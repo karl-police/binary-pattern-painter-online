@@ -10,7 +10,7 @@
     "react-router-dom": "latest",
     "react-helmet": "latest",
     "react-scripts": "latest",
-    "next": "latest",
+    "gatsby": "latest",
     "web-vitals": "latest"
   },
   "scripts": {
