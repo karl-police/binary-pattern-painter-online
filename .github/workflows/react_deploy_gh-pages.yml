@@ -49,8 +49,8 @@ jobs:
       - name: echo
         run: pwd && ls
 
-      #- name: Build
-      #  run: npm run build
+      - name: Build
+        run: npm run build
 
       - name: Next
         run: next build
