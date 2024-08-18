@@ -49,7 +49,10 @@ jobs:
       - name: npm add
         run: npm add .
 
-      - name: Build and webpack
+      #- name: Build
+      #  run: npm runb uild
+
+      - name: Webpack
         run: webpack --mode production
 
       - name: Deploy with gh-pages
