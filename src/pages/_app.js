@@ -10,7 +10,7 @@ import "../css/main.css"
 
 function AppRoot({Component, pageProps}) {
   return(<>
-    <html lang="en">
+
       <Head>
         <title>Binary Pattern Editor</title>
       </Head>
@@ -18,7 +18,7 @@ function AppRoot({Component, pageProps}) {
       <Header></Header>
 
       <Component {...pageProps} />
-    </html>
+
   </>)
 }
 
