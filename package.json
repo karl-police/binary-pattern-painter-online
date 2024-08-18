@@ -16,6 +16,7 @@
   "scripts": {
     "deploy": "gh-pages -d build",
     "deploy-dist": "gh-pages -d dist",
+    "deploy-public": "gh-pages -d public",
     "start": "react-scripts start",
     "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
