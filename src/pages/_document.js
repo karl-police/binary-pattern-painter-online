@@ -1,4 +1,4 @@
-// @ts-nocheck
+import React from "react"
 
 // https://nextjs.org/docs/pages/building-your-application/routing/custom-document
 import { Html, Head, Main, NextScript } from "next/document"
