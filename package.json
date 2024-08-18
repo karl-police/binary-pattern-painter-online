@@ -7,7 +7,7 @@
     "@testing-library/react": "latest",
     "react": "latest",
     "react-dom": "latest",
-
+    "react-router-dom": "latest",
     "react-helmet": "latest",
     "react-scripts": "latest",
     "next": "latest",
