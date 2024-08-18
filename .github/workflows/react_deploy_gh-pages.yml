@@ -52,11 +52,11 @@ jobs:
       - name: run dev
         run: npm run dev
 
-      - name: Build
-        run: npm run build
+      #- name: Build
+      #  run: npm run build
 
-      #- name: Next
-      #  run: next build
+      - name: Next
+        run: next build
 
       - name: Deploy with gh-pages
         run: |
