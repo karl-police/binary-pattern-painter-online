@@ -43,8 +43,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      #- name: Install webpack
-      #  run: npm install -g webpack
+      - name: Install next
+        run: npm install -g next
 
       - name: npm add
         run: npm add .
@@ -52,8 +52,8 @@ jobs:
       - name: Build
         run: npm run build
 
-      #- name: Webpack
-      #  run: webpack --mode production
+      - name: Next
+        run: next build
 
       - name: Deploy with gh-pages
         run: |
