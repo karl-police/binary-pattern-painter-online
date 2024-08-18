@@ -4,6 +4,7 @@ const nextConfig = {
     output: "export",
 
     pageExtensions: ["js", "jsx", "md", "mdx"],
+    target: "serverless",
 
     /**
      * Set base path. This is the slug of your GitHub repository.
