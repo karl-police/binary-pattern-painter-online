@@ -16,9 +16,6 @@ import BinaryPatternEditorPage from "./pages/BinaryPatternEditorPage";
 
 import Header from "./Components/Header";
 
-console.log("HELLLOOOO")
-console.log(process)
-
 
 //import reportWebVitals from './reportWebVitals';
 
