@@ -18,9 +18,10 @@
     "deploy-dist": "gh-pages -d dist",
     "deploy-public": "gh-pages -d public",
     "start": "react-scripts start",
-    "build": "react-scripts build && cp build/index.html build/404.html",
+    "build": "react-scripts build",
+    "build-old": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
