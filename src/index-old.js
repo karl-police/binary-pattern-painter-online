@@ -10,7 +10,7 @@ import {Helmet} from "react-helmet";
 import './css/main.css';
 
 
-import Main_Page from "./pages/Main_Page";
+import Main_Page from "./pages/index";
 import BinaryPatternEditorPage from "./pages/BinaryPatternEditorPage";
 
 import Header from "./Components/Header";
