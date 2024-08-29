@@ -1,3 +1,6 @@
+var b_isDevelopment = (process.env.NODE_ENV == "development")
+
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     // enables static exports
@@ -15,7 +18,7 @@ const nextConfig = {
      *
      * @see https://nextjs.org/docs/app/api-reference/next-config-js/basePath
      */
-    basePath: "/binary-pattern-painter-online",
+    basePath: (!b_isDevelopment) ? "/binary-pattern-painter-online" : "",
 
     distDir: 'build',
 
